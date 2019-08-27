@@ -12,9 +12,9 @@ on: push
 	
 	    steps:
 	
-	    - uses: actions/checkout@master
+	     uses: actions/checkout@master
 	
-	    - uses: ./action-a
+	    uses: ./action-a
 	
 	      env:
 	
